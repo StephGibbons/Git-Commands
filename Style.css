@@ -1,0 +1,91 @@
+/*this is what a comment in CSS looks like*/
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #3D405B;
+	color: #030303;
+}
+
+h1 {
+	font-size: 200%;
+	
+	}
+
+section{
+    font-size: 150%; 
+    }
+
+p {
+	font-size: 125%;
+	line-height: 1.75;
+	}
+
+
+	
+	
+div{
+	border-width: 1px;
+	border-style: dashed;
+	border-color: transparent;
+	border-radius: 15px;
+	}
+	
+
+.right{
+	float:right;
+	}
+
+.center{
+    position: center;
+    }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 160%;
+  background-color: #f2cc8f;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 3px 3px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+  } 
+  
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    }
+	
+#mainheader{
+    width: 40%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #81B29A;
+	padding: 15px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.8);
+    text-align: center; 
+	}
+
+#commands{
+    width: 15%;
+	margin: auto;
+    margin-top: 2%;
+    background-color: #e07a5f;
+    padding: 30px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.8); 
+    text-align: center; 
+    }
+
+#Group1{
+    margin: auto;
+    width: 75%;
+    }
+
